@@ -1,6 +1,6 @@
 package com.pattern.strategy_pattern;
 
-public class PaypalStrategy implements PaymentStrategy {
+public class PaypalStrategy implements PaymentBehavior {
     private String emailAddress;
     private String password;
 

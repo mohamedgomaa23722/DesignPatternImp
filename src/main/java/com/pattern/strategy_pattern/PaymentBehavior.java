@@ -1,5 +1,5 @@
 package com.pattern.strategy_pattern;
 
-public interface PaymentStrategy {
+public interface PaymentBehavior {
     boolean pay(int amount);
 }

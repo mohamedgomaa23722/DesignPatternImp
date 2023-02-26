@@ -1,4 +1,4 @@
-package com.pattern.strategy_pattern;
+package com.pattern.strategy_pattern.model;
 
 public class Item {
     private int id;

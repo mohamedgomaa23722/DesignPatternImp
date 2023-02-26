@@ -1,7 +1,9 @@
-package com.pattern.strategy_pattern;
+package com.pattern.strategy_pattern.model;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.pattern.strategy_pattern.PaymentBehavior;
 
 public class Cart {
 
@@ -29,9 +31,4 @@ public class Cart {
         }
         return totalAmount;
     }
-
-    public void pay(PaymentStrategy paymentStrategy) {
-        paymentStrategy.pay(calculateTotalAmount());
-    }
-
 }
