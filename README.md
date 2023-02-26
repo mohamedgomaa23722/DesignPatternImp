@@ -2,7 +2,7 @@
 At this Repo we will discuss several design pattern with this kind of question what, how, why using selected design pattern so let's jump to the first design pattern 
 
 ## Strategy Design Pattern
-  This pattern defines a family of behavior or algorithm to make it interchangeable strategy, let client use any of that behaviors, it follows this pattern :
+  This pattern defines a family of behavior or algorithm to make it interchangeable strategy, let client use any of that behaviors, it follows those patterns :
   - Single Responsibility Principle : each behivior has only one reason to change, e.g paypal modification i will modifing into pay process only  
   - open close Principle : because if we need to change we will create a new behavior without modifing into exist code.
   - interface segregation Principle
