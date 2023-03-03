@@ -5,7 +5,6 @@ public class BasicSandwich implements Sandwich{
     public double getCost() {
         return 10.5;
     }
-
     @Override
     public String getDescription() {
         return "Bread";

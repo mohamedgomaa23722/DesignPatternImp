@@ -1,6 +1,6 @@
 package com.pattern.Decorator;
 
-public class SandwichDecorator implements Sandwich{
+public abstract class SandwichDecorator implements Sandwich{
     private Sandwich sandwich;
 
     public SandwichDecorator(Sandwich sandwich) {
