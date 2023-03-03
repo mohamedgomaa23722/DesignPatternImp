@@ -1,6 +1,6 @@
 package com.pattern.Decorator;
 
-public class Salad extends SandwichDecorator implements Sandwich {
+public class Salad extends SandwichDecorator{
     public Salad(Sandwich sandwich) {
         super(sandwich);
     }

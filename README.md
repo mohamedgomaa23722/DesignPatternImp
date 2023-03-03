@@ -12,3 +12,13 @@ At this Repo we will discuss several design pattern with this kind of question w
   
   ### Class Diagram
   ![Untitled Diagram (6)](https://user-images.githubusercontent.com/62193989/221428559-1537e81e-4a8e-499a-8f5e-2d25bde78de8.jpg)
+
+## Decorator Design Pattern
+  This pattern help us to wrapping object inside another object to add additional responsibilities to an object
+  dynamically, and it provides flexibility to add new object inherit from abstract class with our new impl or behavior
+  over composition, and it follows those principles : 
+  - open\close principle : when we try to add new decorator we don't need to modify into exist source code
+
+### Class Diagram
+  
+  
