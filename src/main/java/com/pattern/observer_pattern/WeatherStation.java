@@ -2,16 +2,16 @@ package com.pattern.observer_pattern;
 
 import java.util.Random;
 
-import com.pattern.observer_pattern.Data.SubWeatherData;
+import com.pattern.observer_pattern.Data.WeatherData;
 import com.pattern.observer_pattern.devices.HumaditiyDevice;
 import com.pattern.observer_pattern.devices.PressureDevice;
 import com.pattern.observer_pattern.devices.TempDevice;
 
 public class WeatherStation {
     public WeatherStation() {
-        SubWeatherData tempData = new SubWeatherData();
-        SubWeatherData pressureData = new SubWeatherData();
-        SubWeatherData hData = new SubWeatherData();
+        WeatherData tempData = new WeatherData();
+        WeatherData pressureData = new WeatherData();
+        WeatherData hData = new WeatherData();
 
         // First Observer
         new TempDevice(tempData);

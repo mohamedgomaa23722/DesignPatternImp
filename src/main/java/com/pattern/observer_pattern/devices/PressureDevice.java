@@ -1,13 +1,13 @@
 package com.pattern.observer_pattern.devices;
 
-import com.pattern.observer_pattern.Data.SubWeatherData;
+import com.pattern.observer_pattern.Data.WeatherData;
 import com.pattern.observer_pattern.interfaces.DisplayElement;
-import com.pattern.observer_pattern.observers.Observer;
+import com.pattern.observer_pattern.interfaces.Observer;
 
 public class PressureDevice implements Observer, DisplayElement {
     private float pressure;
 
-    public PressureDevice(SubWeatherData weatherData) {
+    public PressureDevice(WeatherData weatherData) {
         weatherData.addObserver(this);
     }
 

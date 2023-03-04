@@ -3,38 +3,37 @@ package com.pattern.observer_pattern.Data;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.pattern.observer_pattern.observers.WeatherObserver;
-import com.pattern.observer_pattern.subjects.WeatherSubject;
+import com.pattern.observer_pattern.interfaces.Observer;
+import com.pattern.observer_pattern.interfaces.Subject;
 
-public class WeatherData implements WeatherSubject{
-    private List<WeatherObserver> observers;
-    private float temperature;
-    private float humidity;
-    private float pressure;
+public class WeatherData implements Subject{
+    private List<Observer> observers;
+    private float data;
 
     public WeatherData() {
         observers = new ArrayList<>();
     }
 
     @Override
-    public void addObserver(WeatherObserver observer) {
+    public void addObserver(Observer observer) {
         observers.add(observer);
     }
 
     @Override
-    public void removeObserver(WeatherObserver observer) {
+    public void removeObserver(Observer observer) {
         observers.remove(observer);
     }
 
     @Override
     public void notifyObservers() {
-        for (WeatherObserver observer : observers) {
-                observer.update(temperature, humidity, pressure);
+        for (Observer observer : observers) {
+                observer.update(data);
         }
     }
-    public void setMeasurements(float temperature, float humidity, float pressure) {
-        this.temperature = temperature;
-        this.humidity = humidity;
-        this.pressure = pressure;
+    public void setMeasurements(float data) {
+        this.data = data;
+        notifyObservers();
     }
+
+
 }

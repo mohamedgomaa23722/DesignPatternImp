@@ -1,13 +1,13 @@
 package com.pattern.observer_pattern.devices;
 
-import com.pattern.observer_pattern.Data.SubWeatherData;
+import com.pattern.observer_pattern.Data.WeatherData;
 import com.pattern.observer_pattern.interfaces.DisplayElement;
-import com.pattern.observer_pattern.observers.Observer;
+import com.pattern.observer_pattern.interfaces.Observer;
 
 public class HumaditiyDevice implements Observer, DisplayElement {
     private float humidity;
     
-    public HumaditiyDevice(SubWeatherData weatherData) {
+    public HumaditiyDevice(WeatherData weatherData) {
         weatherData.addObserver(this);
     }
 

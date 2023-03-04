@@ -1,13 +1,13 @@
 package com.pattern.observer_pattern.devices;
 
-import com.pattern.observer_pattern.Data.SubWeatherData;
+import com.pattern.observer_pattern.Data.WeatherData;
 import com.pattern.observer_pattern.interfaces.DisplayElement;
-import com.pattern.observer_pattern.observers.Observer;
+import com.pattern.observer_pattern.interfaces.Observer;
 
 public class TempDevice implements Observer, DisplayElement{
     private float temperature;
     
-    public TempDevice(SubWeatherData weatherData) {
+    public TempDevice(WeatherData weatherData) {
         weatherData.addObserver(this);
     }
 
