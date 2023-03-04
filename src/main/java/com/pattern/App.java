@@ -1,7 +1,8 @@
 package com.pattern;
 
 
-import com.pattern.observer_pattern.WeatherStation;
+import com.pattern.observer_pattern.WeatherExample.WeatherStation;
+import com.pattern.observer_pattern.YoutubeExample.YoutubeChannel;
 import com.pattern.strategy_pattern.ProductManagement;
 
 /**
@@ -13,7 +14,7 @@ public class App {
 
         //new ProductManagement();
 
-        new WeatherStation();
+        new YoutubeChannel();
 
 
 
