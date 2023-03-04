@@ -62,3 +62,5 @@ Can lead to a proliferation of similar factory classes for creating different ty
 ## Class Diagram
 
 [![image](https://www.linkpicture.com/q/d45ec9b0-e04b-43a3-904d-db5fc6fc8e70.jpg)](https://www.linkpicture.com/view.php?img=LPic64037aa633b3077275748)
+
+## [Singleton Design Pattern](https://github.com/mohamedgomaa23722/DesignPatternImp/tree/singletonPattern)
