@@ -1,5 +1,10 @@
 # DesignPatternImp
-At this Repo we will discuss several design pattern with this kind of question what, how, why using selected design pattern so let's jump to the first design pattern 
+At this Repo we will discuss several design pattern with this kind of question what, how, why using selected design pattern so let's jump to the first design pattern
+
+# This Repo Created by :
+- [Karim Taha](https://github.com/karimtismail)
+- [Martina Naeem](https://github.com/MartinaNaeem)
+- [Mohamed Gomaa](https://github.com/mohamedgomaa23722)
 
 ## Strategy Design Pattern
   This pattern defines a family of behavior or algorithm to make it interchangeable strategy, let client use any of that behaviors, it follows those Principles :
