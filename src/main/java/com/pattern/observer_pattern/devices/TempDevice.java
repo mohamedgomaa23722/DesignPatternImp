@@ -16,9 +16,9 @@ public class TempDevice implements Observer, DisplayElement{
         System.out.println("*--- temperature Device Record ---*");
         if (temperature < 10) {
             System.out.println(temperature + " degree temperature is so low");
-        } else if (temperature < 30) {
+        } else if (temperature < 40) {
             System.out.println(temperature + " degree temperature is high");
-        } else if (temperature > 40) {
+        } else {
             System.out.println(temperature + " degree temperature is too high");
         }
     }

@@ -1,9 +1,7 @@
 package com.pattern;
 
 
-import com.pattern.factory_pattern.BeefBurgerRestaurant;
-import com.pattern.factory_pattern.Restaurant;
-import com.pattern.factory_pattern.VeggieBurgerRestaurant;
+import com.pattern.observer_pattern.WeatherStation;
 import com.pattern.strategy_pattern.ProductManagement;
 
 /**
@@ -13,9 +11,9 @@ import com.pattern.strategy_pattern.ProductManagement;
 public class App {
     public static void main(String[] args) {
 
-        new ProductManagement();
+        //new ProductManagement();
 
-        //new WeatherStation();
+        new WeatherStation();
 
 
 
