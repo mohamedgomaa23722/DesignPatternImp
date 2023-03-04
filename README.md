@@ -56,4 +56,4 @@ Can lead to a proliferation of similar factory classes for creating different ty
 
 ## Class Diagram
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://ibb.co/nR8P2ZT))
