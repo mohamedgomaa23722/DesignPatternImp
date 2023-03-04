@@ -23,3 +23,37 @@ At this Repo we will discuss several design pattern with this kind of question w
   
   ![decorator](https://user-images.githubusercontent.com/62193989/222762257-9c3fcdb0-6c8c-4087-bba9-0057cfb110e0.jpg)
 
+# Factory Design Pattern
+
+## Definition:
+The Factory Design Pattern is a creational design pattern that provides a way to create objects without specifying their concrete types. It defines an interface or an abstract class for creating objects, but lets subclasses decide which class to instantiate. In other words, the Factory pattern provides a way to delegate the instantiation logic to the subclasses.
+
+## Description:
+The Factory Design Pattern involves defining an interface for creating an object, but letting the subclasses decide which class to instantiate. The client code creates an object by calling a factory method and passing it the required parameters. The factory method then creates and returns an object of the appropriate type based on the input parameters.
+
+## Usage:
+The Factory Design Pattern is useful when we want to create objects that share the same interface or superclass, but differ in their implementation. It provides a centralized place to manage object creation, making it easier to modify the implementation of the objects without affecting the client code. This pattern is commonly used in frameworks where there is a need to create objects with a common interface but different implementations.
+
+## Pros:
+
+Provides a centralized place for object creation, making it easier to manage object creation logic
+Reduces coupling between the client code and the objects being created
+Allows for easy modification of the object creation logic, without affecting the client code
+Enables the creation of objects without exposing the creation logic to the client code
+
+## Cons:
+
+Can lead to an increase in the number of classes in a project
+Can result in complex code, especially when dealing with large hierarchies of objects
+Can lead to a proliferation of similar factory classes for creating different types of objects
+
+## Types:
+
+- **Simple Factory:** A simple factory is a static method that takes a set of parameters and returns an object of a particular class. It doesn't implement an interface or an abstract class.
+- **Factory Method:** A factory method defines an interface for creating objects but allows subclasses to decide which class to instantiate. It uses inheritance to delegate the responsibility of object instantiation to the subclasses.
+- **Abstract Factory:** An abstract factory provides an interface for creating families of related or dependent objects without specifying their concrete classes. It is used when there are multiple families of objects to be created and the objects in each family are related to each other.
+
+
+## Class Diagram
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
